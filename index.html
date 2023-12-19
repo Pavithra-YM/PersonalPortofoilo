@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/29e3889757.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav id="sidemenu">
+                <!-- <img src="images/logo.png"  class="logo"> -->
+                    <!-- <h2 class="header-text"><span>PAVITHRA</span></h2> -->
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>   
+                    <li><a href="#portfolio">Portfolio</a></li>     
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="Closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>java developer</p>
+                <h1>Hi,I'm <span>Pavithra</span> <br>from Banaglore </h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/P4.avif" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am Pavithra basicallly from hassan and currently staying Banaglore,
+                       i am completed my Bacholre of computer Application <b>(BCA)</b>  in 2022,
+                       After the graducation i completed my <b>FULL STACK DEVELOPMENT COURSE ON JAVA.</b>
+                    </p>
+                    <br>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experince')">Education</p>
+                    <p class="tab-links"onclick="opentab('education')">Experince</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>java</span><br>OOPS Concept,
+                        Static and non static ,Access Specifiers,Constructor
+                        Method Overloading,Overriding ,Arrays ,Typecasting,polymorphism,Excepption Handling
+                    Collections, Abstraction</li><br>
+                        <li><span>Web development</span><br>HTML,CSS,JavaScript,Hoisting,Json,DOM,BOM Local and Session storage</li><br>
+                        <li><span>SQL</span><br> DBMS,RDBMS,DQL,DDL,DML,DCL,TCL,Function,creating views,creating stored procedure,<B>Sub Queries</B><b>Joins</b></li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="experince">
+                    <ul>
+                        <li><span><b>10</b></span><br>Karnataka Secondary Education Board 
+                        <li>Holy Childdren School</li>
+                    <li>April/2017</li>
+                <li>70.56%</li></li>
+                <li><span><b>12</b></span><br><li>Department of pre University Education</li>
+            <li>hassan Public P U College</li>
+        <li>March/2019</li>
+    <li>67%</li></li>
+                        <li><span><b>Bacholres</b></span><br>Mysore University
+                        <li>Government Science College</li>
+                    <li>sep 2022</li>
+                <li>8.19</li></li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents"id="education">
+                    <ul>
+                        <li><span>java</span><br>Good knowledge on Logical Programming</li>
+                        <li><span>Web development</span><br>Cloned Web Pages Using HTML & CSS</li>
+                        <li><span>SQL</span><br>Hands on Experince on writing Query</li>
+                    </ul>
+                </div>
+            
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .............Service.......... -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web development</h2>
+                    <p>Cloned web pages using HTML and css.
+                    </p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Sql Skilss</h2>
+                    <p> Hands on experince on writing Query</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>java Design</h2>
+                    <p>Good knowledge on Logical Programming</p>
+                        <a href="#">Learn more</a>
+                </div>
+             </div>
+        </div>
+    </div>
+        <!-- ............portfolio.........  -->
+        <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Personal portfolio </h3>  
+                        <p>the app connects you to the talented people around the world.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>                 
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App </h3>  
+                        <p>the app connects you to the talented people around the world.
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>                  
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online App </h3>  
+                        <p>the app connects you to the talented people around the world.
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-link"></i></a>
+                            </div>              
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!-- ....................contact................ -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                <div class="contact-left">
+
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>pavithraym55@gamil.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone-volume"></i>8861943365</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/PAVITHRA YM  Resume (1) (3).pdf" download class="btn btn2">Download Cv</a>
+              </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email"placeholder="your email"required>
+                        <textarea name="message"  rows="6" placeholder="your message"></textarea>
+                        <button type="subnit"class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+   <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemernu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemernu.style.right ="0";
+        }
+        function Closemenu(){
+            sidemernu.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
